@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+    color: gray;
+}
+
+header, nav, main, footer{
+    text-align: center;
+}
+
+header {
+    font-size: large;
+}
+
+nav a{
+    padding:15px;
+    padding-bottom: 4px;
+    font-size:  1.8em;
+    text-decoration:  none;
+    color:white;
+}
+
+nav a:hover{
+    border-bottom:  2px teal solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+ #me{
+    display:inline-block;
+    vertical-align: top;
+}
+#welcometext{
+    
+    display:inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+footer {
+    clear:left;
+}
+
+#csumb{
+    clear: left;
+}
+
+table{
+    margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+    
+}
+td strong{
+    color: teal;
+}
+#table-header{
+    background-color:  LightGray;
+}
+.table-row{
+    background-color:LightGray;
+}
+
+ul{
+    padding-right: 41%;
+    padding-left: 41%;
+}
+
+.hobby{
+    color: teal;
+}
+#content {
+  text-align: center;
+}
